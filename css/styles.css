@@ -1,0 +1,73 @@
+/* Body CSS */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: aquamarine;
+  display: flexbox;
+}
+
+/* Header CSS */
+h1,
+h2,
+h3 {
+  color: indigo;
+  margin-bottom: 20px;
+}
+
+/* Profile Image */
+img.rounded-circle {
+  border: 5px solid dodgerblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* General padding */
+section {
+  padding: 40px;
+}
+
+.container {
+  background-color: cadetblue;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+/* Image Hover CSS*/
+.hover-image {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.hover-image:hover {
+  transform: scale(1.1);
+  filter: brightness(80%);
+}
+
+/* Button Hover CSS*/
+.hover-button {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.hover-button:hover {
+  background-color: cornflowerblue;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+/* Card Hover CSS*/
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

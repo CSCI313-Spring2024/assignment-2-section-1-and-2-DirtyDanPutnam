@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container mt-5 text-center">
+      <h1>Welcome to My Personal Website!</h1>
+      <p class="lead">
+        Hi, I'm John Doe. Here's a little about me, my projects, and how to get
+        in touch.
+      </p>
+      <img
+        src="Images/Profile.jpg"
+        alt="Profile Picture"
+        class="hover-image img-fluid rounded-circle"
+        width="200"
+      />
+      <address>
+        <p>
+          <strong>Address: </strong>Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit.
+        </p>
+      </address>
+      <div class="container mt-5">
+        <!-- Random Bootstrap Button -->
+        <button class="btn btn-success btn-lg hover-button">Click Me!</button>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me" class="container mt-5">
+      <h2>About Me</h2>
+      <p>
+        <strong>Background/Bio:</strong> Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Neque vero autem nulla dolores nesciunt ullam dolorem
+        odio voluptas eos labore, commodi eligendi nostrum eveniet quo
+        architecto perferendis hic aut animi quod pariatur. Non voluptatum
+        tenetur beatae, dolorem voluptas quam molestiae cumque ducimus
+        consequuntur animi voluptate iste provident nam excepturi maxime, dolor
+        impedit sit rem. Debitis ipsum in modi, explicabo commodi minus nisi
+        nesciunt vero qui consectetur odio maiores, suscipit dolores delectus
+        recusandae quae assumenda magnam sint sapiente esse dignissimos.
+        Voluptatum totam earum dolorum rerum iure dicta at. Ex deserunt nam
+        similique ab obcaecati veritatis qui, eius voluptatibus inventore
+        delectus animi!
+      </p>
+      <strong>Interests & Hobbies:</strong>
+      <ul>
+        <li>Video Games</li>
+        <li>Fishing</li>
+        <li>Swimming</li>
+        <li>Spending time with family and friends</li>
+      </ul>
+      <strong>Favorite websites:</strong>
+      <ul>
+        <li><a href="https://www.google.com/">https://www.google.com/</a></li>
+        <li><a href="https://www.bing.com/">https://www.bing.com/</a></li>
+        <li><a href="https://www.yahoo.com/">https://www.yahoo.com/</a></li>
+      </ul>
+      <strong>Favorite Movies:</strong>
+      <ul>
+        <li>Guardians of the Galazy</li>
+        <li>Iron Man</li>
+        <li>The Avengers</li>
+        <li>Black Panther</li>
+      </ul>
+      <div class="container mt-5">
+        <h2 class="text-center">My Weekly Schedule</h2>
+
+        <!-- Weekly Schedule Table -->
+        <table class="table table-bordered">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">Monday</th>
+              <th scope="col">Tuesday</th>
+              <th scope="col">Wednesday</th>
+              <th scope="col">Thursday</th>
+              <th scope="col">Friday</th>
+              <th scope="col">Saturday</th>
+              <th scope="col">Sunday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:00 AM - 9:00 AM</td>
+              <td>Exercise</td>
+              <td>Work</td>
+              <td>Exercise</td>
+              <td>Work</td>
+              <td>Exercise</td>
+              <td>Free</td>
+              <td>Rest</td>
+            </tr>
+            <tr>
+              <td>9:00 AM - 12:00 PM</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Study</td>
+              <td>Relax</td>
+            </tr>
+            <tr>
+              <td>12:00 PM - 1:00 PM</td>
+              <td>Lunch</td>
+              <td>Lunch</td>
+              <td>Lunch</td>
+              <td>Lunch</td>
+              <td>Lunch</td>
+              <td>Free</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>1:00 PM - 5:00 PM</td>
+              <td>Work</td>
+              <td>Study</td>
+              <td>Work</td>
+              <td>Study</td>
+              <td>Work</td>
+              <td>Relax</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>5:00 PM - 6:00 PM</td>
+              <td>Free</td>
+              <td>Exercise</td>
+              <td>Free</td>
+              <td>Exercise</td>
+              <td>Free</td>
+              <td>Free</td>
+              <td>Relax</td>
+            </tr>
+            <tr>
+              <td>6:00 PM - 8:00 PM</td>
+              <td>Dinner</td>
+              <td>Dinner</td>
+              <td>Dinner</td>
+              <td>Dinner</td>
+              <td>Dinner</td>
+              <td>Socialize</td>
+              <td>Relax</td>
+            </tr>
+            <tr>
+              <td>8:00 PM - 10:00 PM</td>
+              <td>Study</td>
+              <td>Relax</td>
+              <td>Relax</td>
+              <td>Relax</td>
+              <td>Study</td>
+              <td>Socialize</td>
+              <td>Free</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container mt-5">
+      <h2>My Portfolio</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card hover-card">
+            <img
+              src="Images/Project1.jpg"
+              class="card-img-top"
+              alt="Project 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card hover-card">
+            <img
+              src="Images/Project2.jpg"
+              class="card-img-top"
+              alt="Project 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card hover-card">
+            <img
+              src="Images/Project3.jpg"
+              class="card-img-top"
+              alt="Project 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2>My Achievements</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card hover-card">
+            <img
+              src="Images/Achievement1.jpg"
+              class="card-img-top"
+              alt="Project 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Achievement 1</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card hover-card">
+            <img
+              src="Images/achievement2.jpg"
+              class="card-img-top"
+              alt="Project 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Achievement 2</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card hover-card">
+            <img
+              src="Images/achievement3.jpg"
+              class="card-img-top"
+              alt="Project 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Achievement 3</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Dog Pics Carosel Section-->
+
+    <section id="dog-carosel" class="container mt-5">
+      <div class="container mt-5">
+        <h3>More Dog Pics</h3>
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- First Image -->
+            <div class="carousel-item active">
+              <img
+                src="Images/carosel1.jpg"
+                class="d-block w-100"
+                alt="Dog 1"
+              />
+            </div>
+            <!-- Second Image -->
+            <div class="carousel-item">
+              <img
+                src="Images/carosel2.jpg"
+                class="d-block w-100"
+                alt="Dog 2"
+              />
+            </div>
+            <!-- Third Image -->
+            <div class="carousel-item">
+              <img
+                src="Images/carosel3.jpg"
+                class="d-block w-100"
+                alt="Dog 3"
+              />
+            </div>
+          </div>
+          <!-- Carousel Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary hover-button">
+          Submit
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4">
+      <p>&copy; 2025 John Doe. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
